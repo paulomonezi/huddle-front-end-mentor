@@ -5,21 +5,14 @@ html {
 
 body {
     background: url(../images/bg-desktop.svg) center center no-repeat;
-    width: 1440px;
     background-color: #674BB0;
-    
-
 }
-
-
 
 .header {
     display: flex;
     margin-left: 145px;
     padding-top: 50px;
 }
-
-
 
 .main {
     display: flex;
@@ -28,11 +21,12 @@ body {
     gap: 20px
 }
 
-
-.main .image{
+.main .image {
     margin-left: 110px;
-    margin-right: 30px;  
+    margin-right: 30px;
 }
+
+
 
 .main .side {
     display: flex;
@@ -68,10 +62,13 @@ body {
     padding: 7px 45px;
     background-color: #fff;
     border-radius: 20px;
-
+    transition: 0.3s;
 }
 
-
+.main .side .btn:hover {
+    color: #FFF;
+    background-color: hsl(300, 69%, 71%);
+}
 
 .footer {
     position: relative;
@@ -79,24 +76,30 @@ body {
     color: #fff;
 }
 
-.footer .social{
-
+.footer .social {
     position: absolute;
     right: 0px;
     bottom: 0px;
     margin: 20px 70px;
-
 }
 
-.footer .social .item{
-    
+.footer .social .item {
     padding: 8px 8px;
     color: #FFF;
     border: 1px;
     border-style: solid;
     border-color: #fff;
     border-radius: 50%;
+    transition: 0.3s;
 }
+
+.footer .social a:hover {
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
+
+
+
 
 /* TODO 
 
