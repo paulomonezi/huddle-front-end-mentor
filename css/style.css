@@ -1,0 +1,69 @@
+html {
+    font-size: 62.5%;
+    max-width: 1440px;   
+}
+
+body {
+    background: url(/images/bg-desktop.svg) center center no-repeat;
+    background-color: #674BB0;
+
+}
+
+/* HEADER */
+
+.header {
+    margin: 40px;
+    padding-bottom: 50px;
+}
+
+/* MAIN */
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    gap: 20px
+
+}
+
+.main .side {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 45px;
+
+}
+
+.main .side h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #FFF;
+}
+
+.main .side p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #FFF;
+}
+
+.main .side .btn{
+    font-size: 1.5rem;
+    color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    width: 120px;
+    height: 30px;
+    align-self: flex-start;
+    padding: 4px 30px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+/* FOOTER */
+
+.footer {
+    grid-area: footer;
+}
