@@ -3,7 +3,9 @@
     body{
         max-width: 425px;
         background: url(../images/bg-mobile.svg)center center no-repeat;
+        background-size: contain;
         background-color: #674BB0;
+        background-position: top;
     }   
     .header{
         margin: 0px 0px 10% 10%;

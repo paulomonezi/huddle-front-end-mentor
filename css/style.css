@@ -3,9 +3,12 @@ html {
     max-width: 1440px;
 }
 
+
+
 body {
     display: flex;
     background: url(../images/bg-desktop.svg) center center no-repeat;
+    background-size: contain;
     background-color: #674BB0;
 }
 
