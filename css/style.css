@@ -13,7 +13,7 @@ body {
 
 .background{
     margin-left: -70px;
-    background: url(../images/bg-desktop.svg) center center no-repeat;
+    background: url(../images/bg-desktop.png) center center no-repeat;
     background-size: cover;
     min-height: 100vh;
 }
